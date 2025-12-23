@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import ROUTES from "../app/routes";
 // import selectors
 import { selectTopics } from "../features/topics/topicsSlice";
-import { addQuiz, addQuizTopic } from "../features/quizzes/quizzesSlice";
+import { addQuizTopic } from "../features/quizzes/quizzesSlice";
 import { addCard } from "../features/cards/cardsSlice";
 
 export default function NewQuizForm() {

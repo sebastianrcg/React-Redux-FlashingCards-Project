@@ -16,7 +16,7 @@ const quizzesSlice = createSlice({
 })
 
 export const addQuizTopic = quiz =>{
-    const { id, name, topicId, cardsIds} = quiz;
+    const { id, topicId} = quiz;
     return (dispatch)=> {
         dispatch(addQuiz(quiz))
         dispatch(addQuizzId({quizId: id, topicId: topicId}))
